@@ -1,0 +1,99 @@
+/* src/styles.css */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f8f9fa;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f8f9fa;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #232f3e;
+	color: #ffffff;
+	padding: 1rem;
+	text-align: center;
+}
+
+.book-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 1rem;
+}
+
+.book-card {
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	margin: 1rem;
+	padding: 1rem;
+	width: 300px;
+	background-color: #ffffff;
+}
+
+.book-card img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+
+.book-details h3 {
+	margin-top: 0;
+}
+
+.book-details button {
+	background-color: #febd69;
+	color: #111;
+	border: none;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.book-details button:hover {
+	background-color: #ffa600;
+}
+
+.purchased-cart span {
+	margin-right: 5px;
+}
+
+/* Add styles for the "purchased" cart and purchased book list */
+.purchased-cart {
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer; /* Add pointer cursor for interaction */
+}
+
+.purchased-book-card {
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	margin: 1rem;
+	padding: 1rem;
+	width: 300px;
+	background-color: #ffffff;
+}
+
+.purchased-book-card button {
+	background-color: #febd69;
+	color: #111;
+	border: none;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	border-radius: 4px;
+	font-weight: bold;
+	margin-top: 8px;
+}
+
+.purchased-book-card button:hover {
+	background-color: #ffa600;
+}
